@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <form action="#" class="formFirst" id="formFirst">
+            <label for="name">NAME</label>
+            <br>
+            <input type="text" id="name">
+            <br>
+            <label for="email">EMAIL</label>
+            <br>
+            <input type="email" id="email" required>
+            <br>
+            <label for="password">PASSWORD</label>
+            <br>
+            <input type="password" id="password">
+            <br>
+            <label for="rePassword">RE-PASSWORD</label>
+            <br>
+            <input type="password" id="rePassword">
+            <br>
+            <input class="btn" type="button" onclick="AddRegister();" value="REGISTER">
+        </form>
+        <form action="#" class="formSecond" id="formSecond" >
+            <label for="email">EMAIL</label>
+            <br>
+            <input type="email" id="loginEmail" required>
+            <br>
+            <label for="password">PASSWORD</label>
+            <br>
+            <input type="password" id="loginPassword">
+            <br>
+            <input class="btn2" type="button" onclick="AddLogin();" value="LOGIN">
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

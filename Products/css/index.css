@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    
+    border-radius: 10px;
+    background: skyblue;
+    width: 400px;
+    height: 370px;
+    margin: 100px auto;
+    text-align: center;
+    line-height: 35px;
+}
+.formSecond{
+    width: 49%;
+    margin: 20px 0px;
+    float: right;    
+}
+.formFirst{
+    width: 49%;
+    margin: 20px 0px;
+    float: left;
+    border-right:2px solid cyan;
+}
+input{
+    outline: none;
+    text-align: center;
+    width: 80%;
+    height: 20px;
+
+    border-radius: 10px;
+}
+.btn{
+    
+    cursor: pointer;
+    height: 25px;
+}
+.btn2{
+    cursor: pointer;
+    height: 25px;
+}
